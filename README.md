@@ -21,16 +21,23 @@ Résultats clés
 IndicateurValeurNombre d'incendies recensés1 367Surface totale brûlée2 768 hectaresDépartement le plus touché (nb)Bouches-du-Rhône (225 incendies)Département le plus touché (surface)Hérault (702 hectares)Commune la plus touchéeGigean - 34 (310 hectares)
 
 Cartes produites
+
 V1 — Jointure directe CSV/Communes
 Carte choroplèthe basée sur une jointure directe entre le CSV brut et les communes françaises.
+
 V2 — Vue PostGIS agrégée
 Carte choroplèthe améliorée utilisant une vue SQL qui cumule toutes les surfaces brûlées par commune — représentation plus précise et complète.
 
 Outils utilisés
 
 PostgreSQL 18 — Système de gestion de base de données
+
 PostGIS — Extension spatiale de PostgreSQL
+
 QGIS — Logiciel SIG open source
+
 Excel — Nettoyage du fichier CSV
+
 BDIFF / data.gouv.fr — Source des données open data
+
 france-geojson (Grégoire David) — Contours des communes françaises
